@@ -23870,12 +23870,17 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.counterActions = counterActions;
-	function counterActions() {
+	/*
+	export function counterActions() {
 	  return {
 	    type: 'Add'
-	  };
+	  }
 	}
+	*/
+
+	var counterActions = exports.counterActions = function counterActions() {
+	  return type;
+	};
 
 /***/ }
 /******/ ]);
