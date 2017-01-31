@@ -9,3 +9,5 @@ export function counterActions() {
 export const counterActions = () => {
   return {type: 'Add'}
 }
+
+console.log('this is a console message')
