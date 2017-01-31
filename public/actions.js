@@ -6,4 +6,6 @@ export function counterActions() {
 }
 */
 
-export const counterActions = () =>(type: 'Add')
+export const counterActions = () => {
+  return {type: 'Add'}
+}

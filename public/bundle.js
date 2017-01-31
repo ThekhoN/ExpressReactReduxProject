@@ -23879,7 +23879,7 @@
 	*/
 
 	var counterActions = exports.counterActions = function counterActions() {
-	  return type;
+	  return { type: 'Add' };
 	};
 
 /***/ }
